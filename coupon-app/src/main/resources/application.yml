@@ -8,10 +8,10 @@ druid:
      password: root
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shop?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/coupon_shop
     username: root
-    password: daniel
+    password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 1
     min-idle: 1

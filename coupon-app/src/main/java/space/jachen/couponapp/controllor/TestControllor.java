@@ -1,4 +1,4 @@
-package com.xdclass.couponapp.controllor;
+package space.jachen.couponapp.controllor;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

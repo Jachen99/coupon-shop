@@ -1,4 +1,4 @@
-package space.jachen.code;
+package code;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
@@ -23,7 +23,7 @@ public class CodeGet {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
 
-        gc.setOutputDir("G:\\IDEAwork\\yygh_parent\\service\\service_orders"+"/src/main/java");
+        gc.setOutputDir("G:\\mywork\\coupon-shop\\coupon-app"+"/src/main/java");
 
         gc.setServiceName("%sService");	//去掉Service接口的首字母I
         gc.setAuthor("jachen");
@@ -33,7 +33,7 @@ public class CodeGet {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/yygh_order?characterEncoding=utf-8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/coupon_shop?characterEncoding=utf-8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("123456");
@@ -42,8 +42,8 @@ public class CodeGet {
 
         // 4、包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("space.jachen.yygh");
-        pc.setModuleName("order"); //模块名
+        pc.setParent("space.jachen");
+        pc.setModuleName("couponapp");
         pc.setController("controller");
         pc.setService("service");
         pc.setMapper("mapper");
@@ -53,7 +53,7 @@ public class CodeGet {
         StrategyConfig strategy = new StrategyConfig();
 
         // 表名
-        strategy.setInclude("order_info");
+        strategy.setInclude("t_user_coupon");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 
