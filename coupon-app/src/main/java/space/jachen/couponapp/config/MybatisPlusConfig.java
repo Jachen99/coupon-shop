@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration // 声明这是一个配置类
 @EnableTransactionManagement // 启用声明式事务管理
-public class hospConfig {
+public class MybatisPlusConfig {
 
     //配置插件
     @Bean
