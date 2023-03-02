@@ -13,7 +13,7 @@ import java.util.List;
  * @date 2023/3/1 20:13
  */
 @SpringBootTest
-public class Test1 {
+public class TCouponServiceTest {
     @Resource
     private TCouponService tCouponService;
 

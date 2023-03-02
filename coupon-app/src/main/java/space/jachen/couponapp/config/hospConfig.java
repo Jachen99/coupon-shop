@@ -1,4 +1,4 @@
-package space.jachen.yygh.common.config;
+package space.jachen.couponapp.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.autoconfigure.ConfigurationCustomizer;
