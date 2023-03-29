@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * t_coupon 表测试类
- * 
+ *
  * @author JaChen
  * @date 2023/3/1 20:13
  */
@@ -28,7 +28,4 @@ public class TCouponServiceTest {
         List<TCoupon> couponList = tCouponService.getAll();
         System.out.println("couponList = " + couponList);
     }
-
-
-
 }

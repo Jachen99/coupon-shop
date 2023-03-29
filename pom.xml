@@ -18,6 +18,8 @@
     <modules>
         <module>coupon-app</module>
         <module>coupon-service-api</module>
+        <module>user-app</module>
+        <module>user-service-api</module>
     </modules>
 
     <!--定义jar包的版本号-->
